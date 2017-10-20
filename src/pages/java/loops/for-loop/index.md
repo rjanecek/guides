@@ -19,6 +19,7 @@ for(initialize variable; condition; modify variable)
 ```java
 int iter_For;
 for (iter_For = 0; iter_For < 10; iter_For++)
+// Declaring the variable within the for loop is also acceptable: for (int iter_For = 0; iter_For < 10; iter_For++)
 {
     System.out.print (iter_For + " ");
     // Iterated 10 times, iter_For 0,1,2...9
