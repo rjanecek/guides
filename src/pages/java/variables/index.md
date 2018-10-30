@@ -11,7 +11,7 @@ In <a href='https://github.com/FreeCodeCamp/FreeCodeCamp/wiki/Java' target='_bla
 *   Wrapper Type: `Integer`, `Short`, `Char`, `Long`, `Boolean`, `Byte`, `Float`, `Double`
 *   Reference Type: `String`, `StringBuilder`, `Calendar`, `ArrayList`, etc.
 
-You may have noticed that the **Wrapper Type** consists of types spelled exactly like the **Primitive Type**, except for the capitalised alphabet in the begining (like the **Reference Type**). This is because the Wrapper Types are actually a part of the more general Reference Types, but <i>closely linked</i> with their primitive counterparts via <a href='https://docs.oracle.com/javase/tutorial/java/data/autoboxing.html' target='_blank' rel='nofollow'>autoboxing and unboxing</a>. For now, you just need to know that such a 'Wrapper Type' exists.
+You may have noticed that the **Wrapper Type** consists of types spelled exactly like the **Primitive Type**, except for the capitalised alphabet in the beginning (like the **Reference Type**). This is because the Wrapper Types are actually a part of the more general Reference Types, but <i>closely linked</i> with their primitive counterparts via <a href='https://docs.oracle.com/javase/tutorial/java/data/autoboxing.html' target='_blank' rel='nofollow'>autoboxing and unboxing</a>. For now, you just need to know that such a 'Wrapper Type' exists.
 
 Typically, you can <i>declare</i> (i.e., create) variables as per the following syntax: <<i>data-type</i>> <<i>variableName</i>>;
 
