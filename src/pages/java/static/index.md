@@ -30,11 +30,11 @@ public class MyClass {
 // Outputs "2"
 ```
 
-The outout is 2, because the `COUNT` variable is static and gets incremented by one each time a new object of the Counter class is created.  You can also access the static variable using any object of that class, such as `c1.COUNT`.
+The output is 2, because the `COUNT` variable is static and gets incremented by one each time a new object of the Counter class is created.  You can also access the static variable using any object of that class, such as `c1.COUNT`.
 
 ## Static Methods
 
-A static method belongs to the class rather than instances. Thus, it can be called without creating instance of class. It is used for altering static contents of the class. There are some restrictions of static methods :
+A static method belongs to the class rather than the instance. Thus, it can be called without creating instance of the class. It is used for altering static contents of the class. There are some restrictions of static methods :
 1. Static method can not use non-static members (variables or functions) of the class.
 2. Static method can not use `this` or `super` keywords.
 
@@ -62,11 +62,11 @@ public class MyClass {
 }
 // Outputs "2"
 ```
-The output is 2 because it gets incremented by static method `increament()`. Similar to static variables, static methods can also be accessed using instance variables.
+The output is 2 because it gets incremented by static method `increment()`. Similar to static variables, static methods can also be accessed using instance variables.
 
 ## Static Blocks
 
-Static code blocks are used to initialise static variables. These blocks are executed immediately after declaration of static variables.
+Static code blocks are used to initialize static variables. These blocks are executed immediately after declaration of static variables.
 
 ***Example:***
 ```java
