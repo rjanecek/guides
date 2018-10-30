@@ -5,11 +5,11 @@ title: Access Modifiers
 
 Have you ever wanted to define how people would access some of your properties? You would not want anyone using your underwear. However, your close friends and relatives can use your sweater and maybe your car.
 
-Similarly to how you set a level of access to your posessions, Java controls access, too. You want to define the access level for variables, methods and classes depending on which other classes you want accessing them.
+Similarly to how you set a level of access to your possessions, Java controls access, too. You want to define the access level for variables, methods, and classes depending on which other classes you want accessing them.
 
-Java provides 4 levels of access modifiers. This means that you can modify access to a variable, method or a class in 4 ways. These 4 ways are private, public, protected and default.
+Java provides 4 levels of access modifiers. This means that you can modify access to a variable, method, or class in 4 ways. These 4 ways are private, public, protected and default.
 
-These access modifiers can be applied to fields, methods and classes (Classes are a special case, we will look at them at the end of this artice). Here is a quick overview<sup>1</sup> of what the `Access Levels` are for each `Access Modifier`:
+These access modifiers can be applied to fields, methods, and classes (Classes are a special case, we will look at them at the end of this artice). Here is a quick overview<sup>1</sup> of what the `Access Levels` are for each `Access Modifier`:
 
 #### Access Modifiers Table Reference: 
 ![Access Modifiers Table](https://i.imgur.com/zoMspyn.png)
@@ -32,7 +32,7 @@ Another example for a method is
 The above example ensures that the method setAge is accessible only within the class from which it was created and nowhere else.
  
 #### Public Access Modifier
-The public access modifier is the direct opposite of the private access modifier. A class, method or variable can be declared as public and it means that it is accessible from any class. Public access modifier can be likened to a public school where anyone can seek admission and be admitted.
+The public access modifier is the direct opposite of the private access modifier. A class, method, or variable can be declared as public and it means that it is accessible from any class. A public access modifier can be likened to a public school where anyone can seek admission and be admitted.
 
  
 A public class, method, or variable can be accessed from any other class at any time.
@@ -73,7 +73,7 @@ void setNewAge(){
 ```
     
 Above are some ways of using the default access modifier for a variable or method.
-Don't forget, the default access modifier does not have a key word. The absence of the 3 other access modifiers means you are using the default access modifier.
+Don't forget, the default access modifier does not have a keyword. The absence of the 3 other access modifiers means you are using the default access modifier.
 
 #### Protected Access Modifier
 The protected access modifier is closely related to the default access modifier. The protected access modifier has the properties of the default access modifier but with a little improvement.
@@ -97,7 +97,7 @@ By default, classes can only have 2 modifiers:
 - public
 - no modifier (default modifier)
 
-So this means classes can never be set to `private` or `protected`?
+So does this mean classes can never be set to `private` or `protected`?
 
 This is logical, why would you want to make a private class? No other class would be able to use it. But sometimes, you can embed a class into another class. These special classes, `inner classes`, can be set to private or protected so that only its surrounding class can access it:
 
