@@ -17,7 +17,7 @@ In Python, a function definition has the following features:
 
 1. The keyword `def`
 2. a function name
-3. paranthesis'()', and within paranthesis input parameters,although the input parameters are optional.
+3. paranthesis'()', and within paranthesis input parameters, although the input parameters are optional.
 4. a colon ':'
 5. some block of code to execute
 6. a return statement (optional)
@@ -46,7 +46,7 @@ Functions are blocks of code that can be reused simply by calling the function. 
 
 Functions in Python are created using the `def` keyword, followed by a function name and function parameters inside parentheses.
 
-A function always returns a value,The `return` keyword is used by the function to return a value, if you don't want to return any value, the default value `None` will returned. 
+A function always returns a value, The `return` keyword is used by the function to return a value, if you don't want to return any value, the default value `None` will returned. 
 
 The function name is used to call the function, passing the needed parameters inside parentheses.
 
@@ -126,6 +126,6 @@ result = s(1, 2)
   print(x)  # error - x is not defined
   print(double(4))  # prints 8
   ```
--Python interprets the function block only when the function is called and not when the function is defined.So even if the function definition block contains some sort of error,the python interpretar will point that out only when the function is called. 
+-Python interprets the function block only when the function is called and not when the function is defined.So even if the function definition block contains some sort of error, the python interpretar will point that out only when the function is called. 
 ### More Information:
 - <a href='https://docs.python.org/3/tutorial/controlflow.html#defining-functions' target='_blank' rel='nofollow'>Python 3 Docs: Defining Functions</a>
